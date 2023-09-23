@@ -1,24 +1,58 @@
-/**
-*
-* ---------------------------------------------------------------------------
-*
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
-*
-* --------------------------------------------------------------------------- 
-*
-*/
+@font-face {
+    font-family: 'edel';
+    src: url('/fonts/edel.ttf');
+}
 
-/* =================================== */
-/*	Basic Style 
-/* =================================== */
+@font-face {
+    font-family: 'cal';
+    src: url('/fonts/cal.otf');
+}
+
+@font-face {
+    font-family: 'kiss';
+    src: url('/fonts/kiss.ttf');
+}
+
+@font-face {
+    font-family: 'tend';
+    src: url('/fonts/tend.ttf');
+}
+
+@font-face {
+    font-family: 'briq';
+    src: url('/fonts/briq.otf');
+}
+
+@font-face {
+    font-family: 'raf';
+    src: url('/fonts/raf.ttf');
+}
+
+@font-face {
+    font-family: 'schro';
+    src: url('/fonts/schro.otf');
+}
+
+@font-face {
+    font-family: 'koni';
+    src: url('/fonts/koni.ttf');
+}
+
+@font-face {
+    font-family: 'song';
+    src: url('/fonts/song.ttf');
+}
+
+@font-face {
+    font-family: 'aiden';
+    src: url('/fonts/aiden.otf');
+}
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'koni', sans-serif;
     line-height: 24px;
-    font-size: 16px;
+    font-size: 24px;
     color: #818181;
 }
 
@@ -49,7 +83,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'aiden', sans-serif;
     color: #252525;
 }
 
@@ -289,7 +323,7 @@ main > section {
 }
 
 h1.navbar-brand {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
@@ -297,7 +331,7 @@ h1.navbar-brand {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
-    font-size: 15px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
@@ -359,9 +393,13 @@ h1.navbar-brand {
     display: table-cell;
 }
 
+.caption-content a.btn {
+    font-size: 32px;
+}
+
 .caption-content h2 {
     color: #fff;
-    font-size: 52px;
+    font-size: 69px;
     font-weight: 400;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -369,13 +407,13 @@ h1.navbar-brand {
 
 .caption-content > span {
     display: block;
-    font-size: 24px;
+    font-size: 42px;
     margin-bottom: 45px;
     text-transform: capitalize;
 }
 
 .caption-content p {
-    font-size: 29px;
+    font-size: 32px;
     margin-bottom: 65px;
 }
 
@@ -1221,7 +1259,7 @@ textarea.form-control {
 @media only screen and (max-width: 767px) {
 
     body {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     .parallax {
@@ -1248,16 +1286,16 @@ textarea.form-control {
 
 /* slider */
     .caption-content h2 {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .caption-content > span {
-        font-size: 16px;
+        font-size: 24px;
         margin-bottom: 20px;
     }
 
     .caption-content p {
-        font-size: 16px;
+        font-size: 24px;
         margin-bottom: 30px;
     }
 
@@ -1271,7 +1309,7 @@ textarea.form-control {
     }
 
     #about h3 {
-        font-size: 18px;
+        font-size: 24px;
         margin: 0 0 35px !important;
     }
 
@@ -1295,7 +1333,7 @@ textarea.form-control {
 /*portfolio*/
     .portfolio-item {
         margin: 0 auto 10px;
-        font-size: 14px;
+        font-size: 24px;
         width: 280px;
     }
 
@@ -1307,11 +1345,11 @@ textarea.form-control {
 
 /* lightbox */
     .fancybox-title h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .fancybox-title p {
-        font-size: 14px;
+        font-size: 24px;
     }
 
 /* testimonial */
