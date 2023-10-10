@@ -50,7 +50,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'koni', sans-serif;
+    font-family:  sans-serif;
     line-height: 24px;
     font-size: 24px;
     color: #818181;
@@ -81,8 +81,8 @@ a, a:hover, a:focus, .btn:focus {
     outline: none;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2,  h4, h5, h6,
+.h1, .h2,  .h4, .h5, .h6 {
     font-family: 'aiden', sans-serif;
     color: #252525;
 }

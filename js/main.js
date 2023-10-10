@@ -180,6 +180,7 @@ google.maps.event.addDomListener(window, 'load', init);
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+    // var apiKey = process.env.API_KEY;
 
 	    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
 
